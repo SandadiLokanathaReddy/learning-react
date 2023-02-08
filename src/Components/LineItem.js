@@ -5,7 +5,7 @@ export const LineItem = (props) => {
   const { item, handleCheck, handleDelete } = props;
 
   return (
-    <li className="item" key={item.id}>
+    <li className="item">
       <input
         type="checkbox"
         onChange={() => handleCheck(item.id)}
