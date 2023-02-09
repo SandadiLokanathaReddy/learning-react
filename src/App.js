@@ -1,9 +1,10 @@
 import Header from "./Components/Header";
 import Content from "./Components/Content";
 import Footer from "./Components/Footer";
-import { useEffect, useState } from "react";
 import AddItem from "./Components/AddItem";
 import SearchItem from "./Components/SearchItem";
+
+import { useEffect, useState } from "react";
 
 function App() {
 	const API_URL = "http://localhost:3500/items";
